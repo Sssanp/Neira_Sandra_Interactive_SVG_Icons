@@ -1,0 +1,496 @@
+/* ---General Styles--- */
+
+ body {
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Cherry Bomb One', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #ea6c28;
+}
+#p{
+    color: #ff0;
+}
+
+#o{
+    color:  #ea6c28;
+}
+
+#pf{
+    color: #9c2e55;
+}
+
+#g{
+    color: #f18d97;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2, section h3, section p {
+    padding-left: 15px;
+}
+
+.spacer {
+    margin-top: 60px;
+}
+
+.txt-spacer {
+    margin-top: 30px;
+}
+
+ /* ---End of General Styles--- */
+
+/* ---icon--- */
+
+.quatro-text{
+    text-align: start;
+    font-size: 18px;
+    line-height: 2;
+    color: black;
+    margin-bottom: 30px;
+}
+  
+
+    .icon-box {
+        text-align: center;
+    }
+
+
+
+#quatro-title{
+    text-align: center;
+}
+
+
+/* ---CSS icon animations--- */
+
+/* ---pineapple--- */
+
+#pineapplefruit{
+    width: 300px;
+   }
+
+
+#pinneaple-title{
+        text-align: center;
+        color:#ff0;
+        margin-bottom: 40px;
+        margin-top: 50px;
+}
+
+#pineapplefruit:hover #pineappleleaves{
+    filter: url(#pictureFilter);
+    fill: greenyellow;
+}
+
+#pineapplefruit:hover {
+    animation: spin 3s infinite;
+    transform-origin: center;
+  }
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+ 
+
+/* ---orange--- */
+
+#orangefruit{
+    width: 300px;
+   }
+
+
+#orange-title{
+        text-align: center;
+        color:#ea6c28;
+        margin-bottom: 100px;
+        margin-top: 50px;
+}
+
+#orangefruit:hover #bigcircle {
+    fill: #ea6c28;
+}
+
+#orangefruit:hover #circles{
+    fill:  #f6931e
+}
+
+#orangefruit:hover {
+    animation-name:bounce;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    from {
+      transform:translateY(-25px);
+    }
+    to {
+      transform:translateY(15px);
+    }
+  }
+
+ /* ---passion fruit--- */
+
+ #passionfruit{
+    width: 300px;
+   }
+
+
+#passionfruit-title{
+        text-align: center;
+        color:#9c2e55;
+        margin-bottom: 85px;
+        margin-top: 50px;
+}
+
+
+#tinycircle{
+    fill: #9c2e55;
+}
+
+#tinycircle2{
+    fill: #9c2e55;
+}
+
+#seeds{
+    fill:#9c2e55;
+}
+
+#passionfruit:hover #tinycircle{
+    fill: #f7b724;
+}
+
+#passionfruit:hover #tinycircle2{
+    fill: #faec96;
+}
+
+#passionfruit:hover #seeds{
+    fill:#7b372c;
+}
+
+#passionfruit{
+transition: transform .7s;
+}
+
+#passionfruit:hover{
+transform: scale(0.9);
+}
+
+
+  /* ---grapefruit--- */
+
+  #grapefruit{
+    width: 300px;
+   }
+
+
+  #grapefruit-title{
+    text-align: center;
+    color:#fac659;
+    margin-bottom: 85px;
+    margin-top: 50px;
+}
+
+
+#in {
+    fill:#fac659
+}
+
+#grapefruit:hover #in{
+    fill: #f18d97
+}
+
+  
+  @keyframes example-jump {
+    0% {
+      transform:  scaleX(1.25) scaleY(0.75) translate(0px, 0px);
+    }
+    30% {
+      transform: scaleX(0.75) scaleY(1.25) translate(0px, -20px);
+    }
+    50% {
+      transform: scaleX(0.9) scaleY(1.1) translate(0px, -30px);
+    }
+    70% {
+      transform: translate(0px, -50px);
+    }
+  }
+  
+  #grapefruit:hover {
+    animation-name: example-jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  /* ---alltogether--- */
+
+  #alltogether{
+    width: 350px;
+   }
+
+
+#alltogether-title{
+    text-align: center;
+    color: green;
+    margin-bottom: 85px;
+    margin-top: 50px;
+}
+
+#pf_seeds{
+    fill: #f7b724;
+
+}
+
+#alltogether:hover #pf_seeds{
+    fill: #7b372c;;
+}
+
+#gf_inside{
+    fill: #fac659;
+}
+
+#alltogether:hover #gf_inside{
+    fill: #f18d97;
+}
+
+#alltogether:hover{
+animation: shaking 0.35s infinite;
+}
+@keyframes shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+
+/* ---canicon--- */
+
+#canicon{
+    width: 200px;
+   }
+
+
+  #canicon-title{
+    text-align: center;
+    color: black;
+    margin-bottom: 85px;
+    margin-top: 50px;
+}
+
+
+#purplec{
+    fill: #000;
+}
+
+#orangec{
+    fill:#000;
+}
+
+#pinkc{
+    fill:#000;
+}
+
+#yellowc{
+    fill:#000;
+}
+
+#canicon:hover #purplec{
+    fill: #9c2e55;
+}
+
+#canicon:hover #orangec{
+    fill: #f6931e;
+}
+
+#canicon:hover #pinkc{
+    fill: #f18d97;
+}
+
+#canicon:hover #yellowc{
+    fill: #ff0;
+}
+
+
+
+   /* ---icon-colours--- */
+
+   /* ---PINEAPPLE--- */
+
+   #pineapplefruit{
+    width: 300px;
+   }
+
+
+  .icon-set-1 .cls-1 {
+    fill: #006837;
+  }
+  
+  .icon-set-1 .cls-2 {
+    fill: #ff0;
+  }
+  
+  .icon-set-1 .cls-3 {
+    fill: #603813;
+    stroke: #42210b;
+    stroke-miterlimit: 10;
+    stroke-width: 8.54px;
+  }
+  
+   /* ---ORANGE--- */
+
+  .icon-set-2 .cls-1 {
+    fill: #f6931e;
+  }
+  
+  .icon-set-2 .cls-2 {
+    fill: #ea6c28
+  }
+  
+  .icon-set-2 .cls-3 {
+    fill: #8ec33f;
+    stroke: none;
+  }
+
+  /* ---PASSIION FRUIT--- */
+
+  .icon-set-3 .cls-1 {
+    fill: #f7b724;
+  }
+  
+  .icon-set-3 .cls-2 {
+    fill: #faec96;
+  }
+  
+  .icon-set-3 .cls-3 {
+    fill: #9c2e55;
+    stroke: none;
+  }
+
+  .icon-set-3 .cls-4 {
+    fill: #5c903e;
+  }
+
+  .icon-set-3 .cls-5 {
+    fill: #5d4627;
+    stroke: none;
+  }
+
+  .icon-set .cls-6 {
+    fill: #7b372c;
+  }
+
+/* ---GRAPEFRUIT--- */
+
+.icon-set-4 .cls-1 {
+    fill: #fac659;
+  }
+  
+  .icon-set-4 .cls-2 {
+    fill: #00b01c;
+  }
+  
+  .icon-set-4 .cls-3 {
+    fill: #f18d97;
+    stroke: none;
+  }
+
+
+  /* ---ALLTOGETHER--- */
+
+  .icon-set-5 .cls-1 {
+    fill: #f7b724;
+  }
+
+  .icon-set-5 .cls-2 {
+    fill: #fac659;
+  }
+
+  .icon-set-5 .cls-3 {
+    fill: #006837;
+    stroke: none;
+  }
+
+  .icon-set-5 .cls-4 {
+    fill: #f6931e;
+  }
+
+  .icon-set-5 .cls-5 {
+    fill: #ea6c28;
+    stroke: none;
+  }
+
+  .icon-set-5 .cls-6 {
+    fill: #ff0;
+  }
+
+  .icon-set-5 .cls-7 {
+    fill: #f18d97;
+  }
+
+  .icon-set-5 .cls-8 {
+    fill: #8ec33f;
+  }
+
+  .icon-set-5 .cls-9 {
+    fill: #7b372c;
+  }
+
+  .icon-set-5 .cls-10 {
+    fill: none;
+    stroke: #603813;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+  }
+
+   /* ---CAN--- */
+  
+   .icon-set-6 .cls-1 {
+    fill: #f6931e;
+  }
+
+  .icon-set-6 .cls-2 {
+    fill: #ff0;
+  }
+
+  .icon-set-6 .cls-3 {
+    fill: #f18d97;
+    stroke: none;
+  }
+
+  .icon-set-6 .cls-4 {
+    fill: #9c2e55;
+  }
+
+  .icon-set-6 .cls-5 {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 9px;
+  }
